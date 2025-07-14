@@ -10,8 +10,14 @@ export async function getAllTasks() {
 export async function saveTask(task) {
   const tasks = await getAllTasks();
   const newTask = { id: Date.now(), ...task };
-  tasks.push(newTask);
-  await fs.writeFile(DB_PATH, JSON.stringify(tasks, null, 2));
+
+  // Add new task at the top
+  const updatedTasks = [newTask, ...tasks];
+
+  // Keep only the latest 10 tasks
+  const trimmedTasks = updatedTasks.slice(0, 10);
+
+  await fs.writeFile(DB_PATH, JSON.stringify(trimmedTasks, null, 2));
   return newTask;
 }
 
