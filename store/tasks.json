@@ -1,0 +1,102 @@
+[
+  {
+    "id": 1752525309659,
+    "heading": "Call Home",
+    "task": "Call home at 7:00 p.m. everyday",
+    "subtasks": [],
+    "reminder": {
+      "type": "daily",
+      "time": "7:00 PM"
+    }
+  },
+  {
+    "id": 1752525286738,
+    "heading": "Upload on YouTube",
+    "task": "Upload a video on YouTube every week",
+    "subtasks": [],
+    "reminder": {
+      "type": "weekly",
+      "time": ""
+    }
+  },
+  {
+    "id": 1752525280220,
+    "heading": "Eat Bananas",
+    "task": "Eat two bananas every week",
+    "subtasks": [],
+    "reminder": {
+      "type": "weekly",
+      "time": ""
+    }
+  },
+  {
+    "id": 1752525261413,
+    "heading": "DSA",
+    "task": "Solve DSA problems",
+    "subtasks": [],
+    "reminder": {
+      "type": "weekly",
+      "time": "Wed"
+    }
+  },
+  {
+    "id": 1752525248544,
+    "heading": "Study",
+    "task": "Study 2 hours everyday",
+    "subtasks": [],
+    "reminder": {
+      "type": "daily",
+      "time": "2:00 PM"
+    }
+  },
+  {
+    "id": 1752525139836,
+    "heading": "Wish Happy Birthday to Friend",
+    "task": "Wish friend a happy birthday",
+    "subtasks": [],
+    "reminder": {
+      "type": "yearly",
+      "time": "27th day of the month"
+    }
+  },
+  {
+    "id": 1752525127731,
+    "heading": "Drama Class",
+    "task": "Go to drama class",
+    "subtasks": [],
+    "reminder": {
+      "type": "weekly",
+      "time": "Wed 3:03 PM"
+    }
+  },
+  {
+    "id": 1752525114912,
+    "heading": "Study Physics",
+    "task": "Study physics everyday for 2 hours",
+    "subtasks": [],
+    "reminder": {
+      "type": "daily",
+      "time": "2:00 PM"
+    }
+  },
+  {
+    "id": 1752469452716,
+    "heading": "Call Mom",
+    "task": "Call mom on Sundays",
+    "subtasks": [],
+    "reminder": {
+      "type": "weekly",
+      "time": "Sun 12:00 PM"
+    }
+  },
+  {
+    "id": 1752469848948,
+    "heading": "Study",
+    "task": "Daily study",
+    "subtasks": [],
+    "reminder": {
+      "type": "daily",
+      "time": "2:00 PM"
+    }
+  }
+]
