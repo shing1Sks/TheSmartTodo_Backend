@@ -1,1 +1,22 @@
-[]
+[
+  {
+    "id": 1752469452716,
+    "heading": "Call Mom",
+    "task": "Call mom on Sundays",
+    "subtasks": [],
+    "reminder": {
+      "type": "weekly",
+      "time": "Sun 12:00 PM"
+    }
+  },
+  {
+    "id": 1752469848948,
+    "heading": "Study",
+    "task": "Daily study",
+    "subtasks": [],
+    "reminder": {
+      "type": "daily",
+      "time": "2:00 PM"
+    }
+  }
+]
