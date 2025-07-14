@@ -36,18 +36,13 @@ export async function parseTask(userPrompt) {
       },
     }
   );
-  //   console.log(`Raw response: ${res.data}`);
 
-  //   const raw = res.data.choices?.[0]?.message?.content;
-  //   //   return JSON.parse(raw);
   let raw = res.data.choices?.[0]?.message?.content || "";
 
-  // 👇 Remove any markdown formatting like ```json ... ```
   raw = raw.trim();
   if (raw.startsWith("```")) {
     raw = raw.replace(/```(?:json)?\s*([\s\S]*?)\s*```/, "$1");
   }
 
-  console.log("Cleaned JSON:\n", raw);
   return JSON.parse(raw);
 }
